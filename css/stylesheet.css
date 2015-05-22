@@ -1,0 +1,500 @@
+
+
+body {
+	background-color: #f7f7f7;
+}
+
+/* START Navbar styling */
+
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #f7f7f7;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #264b72;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 55px;
+	font-family:'Montserrat', sans-serif;
+	line-height: 30px;
+	color: #264b72;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #264b72;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #264b72;
+}
+
+
+.navbar-right {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+/* END Navbar styling */
+
+
+.homepage-content {
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 88%;
+	padding: 45px;
+
+}
+
+.homepage-content p {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	line-height: 75px;
+
+}
+
+/* START Homepage main link styling (colors and hover) */
+
+.ps-link, .VFA-link, .writer-link, .reader-link, .listener-link, .tinkerer-link{
+	color: #ca3d3e;
+	-webkit-transition: color 500ms ease-out;
+    -moz-transition: color 500ms ease-out;
+    -o-transition: color 500ms ease-out;
+    transition: color 500ms ease-out;
+}
+
+.ps-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.VFA-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+
+.writer-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.reader-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.listener-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.tinkerer-link:hover {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.builder-link {
+	color: #264b72;
+	font-weight: bold;
+	-webkit-transition: color 500ms ease-out;
+    -moz-transition: color 500ms ease-out;
+    -o-transition: color 500ms ease-out;
+    transition: color 500ms ease-out;
+}
+
+.builder-link:hover {
+	text-decoration: none;
+	color: #264b72;
+}
+
+/* START Pages Header Styling */
+
+.pages-header {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.pages-header h2 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+/* END Pages Header Styling */
+
+/* START Pages Content Styling */
+
+.pages-content {
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 45px;
+
+}
+.pages-content p {
+	font-size: 25px;
+	text-align: full;
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+}
+
+.pages-content a {
+	text-decoration: none;
+	color: #264b72;
+	font-weight: bold;
+}
+
+.main-pic {
+	width:100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-pic {
+	width: 33%;
+	height: auto;
+	padding: 5px;
+	margin-bottom: 2%;
+}
+
+.full-pic {
+	width: 100%;
+	height: auto;
+}
+
+h4 {
+	margin-top: 10%;
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+}
+
+.pages-content ul {
+	list-style: none;
+	font-family:'Montserrat', sans-serif;
+	color: black;
+	width: 100%;
+}
+
+.writing-content {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+	line-height: 75px;
+	margin-top: 20%;
+}
+
+.writing-content a {
+	font-size: 30px;
+	color: #264b72;
+	text-decoration: none;
+}
+
+.reading-intro {
+	text-align: center;
+}
+
+.legend {
+	font-style: italic;
+	position: absolute;
+	bottom: 0;
+}
+
+.biblio {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table {
+	display: table;
+}
+
+.biblio-column {
+	display: table-cell;
+	padding: 10px 15px 15px 15px;
+ 	width: 30%;
+  	border: 1px double black;
+  	background-color: #fcfcff;
+  	font-family: Lato; sans-serif;
+  	/*line-height: 10pt;*/
+  	font-size: 15px;
+  	position: relative;
+}
+
+.status {
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.book a{
+	font-style: italic;
+	font-weight: bold;
+	color: #264b72;
+}
+
+.booktitle {
+	padding-right: 3px;
+}
+
+#recommend{
+	background-color: #fdfd96;
+}
+
+.music-container {
+	border: 1px dashed black;
+}
+
+.music-column {
+	display: inline;
+	padding: ;
+	border: 1px solid black;
+	width: 40%;
+
+	
+}
+
+/* END Pages Content Styling */
+
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@media(max-width:767px){
+	.navbar-default .navbar-brand {
+	font-size: 35px;
+	}
+
+	.homepage-content {
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 25px;
+	}   
+   
+    .homepage-content p {
+        font-size: 18px; 
+        line-height: 60px;
+    }
+    
+    .pages-header h2 {
+	font-size: 20px;
+	}
+    
+    .pages-content {
+    	margin-top: -25px;
+    }
+    
+    .pages-content p {
+    	font-size: 15px;
+    }
+
+	.bottom-pic {
+    	display: none;
+    }
+
+	.pages-content ul {
+	font-size: 10px;
+	line-height: 175%;
+	margin-left: -50px;;
+	
+	}
+
+	h4 {
+		margin-top: 25%;
+		font-size: 14px;
+	}
+
+	.biblio-column {
+		display: block;
+		width: 100%;
+	}
+
+	.legend {
+		margin-bottom: 110px;
+		font-size: 12px;
+	}
+
+}
+
+
+@media(min-width:768px){
+	
+	.navbar-default .navbar-brand {
+	font-size: 45px;
+	}
+
+	.homepage-content {
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 25px;
+	line-height: 400%;
+	}   
+   
+    .homepage-content p {
+        font-size: 40px; 
+    }
+
+	.pages-header h2 {
+	font-size: 25px;
+	}
+    
+    .pages-content {
+    	margin-top: -15px;
+    }
+    
+    .pages-content p {
+    	font-size: 18px;
+    }
+
+	.bottom-pic {
+		display: none;
+	}
+
+	.pages-content ul {
+	font-size: 10px;
+	line-height: 250%;
+	text-align: center;
+	margin-left: -30px;
+	
+	}
+
+	h4 {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	
+}
+
+@media(min-width:992px){
+	
+	.navbar-default .navbar-brand {
+	font-size: 50px;
+	}
+
+	.homepage-content {
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 25px;
+	line-height: 400%;
+	}   
+   
+    .homepage-content p {
+        font-size: 43px; 
+    }
+
+	.pages-header h2 {
+	font-size: 30px;
+	}
+    
+    .pages-content p {
+    	font-size: 20px;
+    }
+
+	.bottom-pic {
+		display: inline;
+	}
+
+	.pages-content ul {
+	font-size: 14px;
+	line-height: 175%;
+	text-align: center;
+	margin-left: -30px;
+	
+	}
+
+	h4 {
+		font-size: 18px;
+		text-align: center;
+	}
+	
+
+}
+
+
+@media(min-width:1200px){
+
+	.navbar-default .navbar-brand {
+	font-size: 55px;
+	}
+
+	.homepage-content {
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 25px;
+
+	}   
+   
+    .homepage-content p {
+        font-size: 50px; 
+        
+    }
+
+	.pages-header h2 {
+	font-size: 30px;
+	}
+    
+    .pages-content p {
+    	font-size: 25px;
+    }
+
+	
+}
+
+
+/* END MEDIA QUERIES - RESPONSIVE */
+
+
+
+/* END Homepage main link styling (colors and hover) */
+
+/* START Social icon styling */
+
+.homepage-icons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88%;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-top: 1%;
+	color: #adadad;
+	-webkit-transition: color 500ms ease-out;
+    -moz-transition: color 500ms ease-out;
+    -o-transition: color 500ms ease-out;
+    transition: color 500ms ease-out;
+}
+
+.homepage-icons a{
+	color: #adadad;
+}
+
+i:hover {
+	color: #2b2b2b;
+}
+
+/* END Social con styling */
