@@ -1,4 +1,14 @@
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #e4e4e4;
+}
 
+.footer-icons {
+	text-align: left !important;
+}
 
 body {
 	background-color: #f7f7f7;
@@ -178,9 +188,33 @@ body {
 }
 
 h4 {
-	margin-top: 10%;
 	text-align: center;
 	font-family:'Montserrat', sans-serif;
+}
+
+.press-header {
+	margin-top: 10%;
+}
+
+.press-container {
+	margin-top: 7%;
+	margin-bottom: 4%;
+	text-align: center;
+
+}
+
+.press {
+	border: 1px solid #d3d3d3;
+	display: inline-block;
+	margin: 20px;
+}
+
+.press img {
+	height: 100px;
+}
+
+.ps-resize {
+	width: 100px;
 }
 
 .pages-content ul {
@@ -196,7 +230,7 @@ h4 {
 	font-family: 'Lato', sans-serif;
 	color: #2b2b2b;
 	line-height: 75px;
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 .writing-content a {
@@ -259,16 +293,63 @@ h4 {
 }
 
 .music-container {
-	border: 1px dashed black;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .music-column {
-	display: inline;
-	padding: ;
-	border: 1px solid black;
-	width: 40%;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 50px;
+}
 
+.panel-heading {
+	background: #d3d3d3 !important;
+}
+
+.music-container h5 {
+	font-family: courier new;
+}
+
+.podcasts-container {
+	margin-top: 7%;
+	text-align: center;
+}
+
+.podcast {
+	border: 1px solid #d3d3d3;
+	display: inline-block;
+	margin: 20px;
 	
+}
+
+.podcast img {
+	height: 190px;
+	
+}
+
+.contact-content {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+	line-height: 75px;
+	margin-top: 10%;
+}
+
+.contact-content a {
+	color: #264b72;
+	text-decoration: none;
+}
+
+.contact-content li {
+	list-style: none;
+}
+
+.contact-icons {
+	size: 100px !important;
 }
 
 /* END Pages Content Styling */
@@ -322,6 +403,10 @@ h4 {
 		font-size: 14px;
 	}
 
+	.press {
+	
+	}
+
 	.biblio-column {
 		display: block;
 		width: 100%;
@@ -330,6 +415,10 @@ h4 {
 	.legend {
 		margin-bottom: 110px;
 		font-size: 12px;
+	}
+
+	.press-container {
+		display: none;
 	}
 
 }
@@ -382,7 +471,10 @@ h4 {
 		font-size: 14px;
 		text-align: center;
 	}
-
+	
+	.press-text{
+		display: none;
+	}
 	
 }
 
@@ -430,6 +522,9 @@ h4 {
 		text-align: center;
 	}
 	
+	.press-text{
+		display: none;
+	}
 
 }
 
@@ -462,7 +557,9 @@ h4 {
     	font-size: 25px;
     }
 
-	
+	.press-text{
+		display: none;
+	}
 }
 
 
