@@ -52,6 +52,7 @@ body {
 	font-size: 15px;
 }
 
+
 /* END Navbar styling */
 
 
@@ -336,7 +337,7 @@ h4 {
 	font-family: 'Lato', sans-serif;
 	color: #2b2b2b;
 	line-height: 75px;
-	margin-top: 10%;
+	margin-top: 4%;
 }
 
 .contact-content a {
@@ -352,6 +353,55 @@ h4 {
 	size: 100px !important;
 }
 
+.projects-content {
+	margin-top: -2%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 45px;
+}
+
+.projects-content p {
+	font-size: 25px;
+	text-align: full;
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+}
+
+.projects-content a {
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: red;
+	color: #264b72;
+	font-weight: bold;
+}
+
+.projects-content ul {
+	text-decoration: none;
+	list-style: none;
+	font-family:'Montserrat', sans-serif;
+	color: black;
+	width: 100%;
+	text-align: left !important;
+}
+
+.project-list p {
+	text-align: left;
+}
+
+
+
+.pages-header h2 {
+	text-decoration: none;
+}
+
+.project-list li {
+	font-family: 'Lato';
+	text-decoration: none;
+	margin-top: 5%;
+}
+
 /* END Pages Content Styling */
 
 
@@ -361,7 +411,7 @@ h4 {
 	.navbar-default .navbar-brand {
 	font-size: 35px;
 	}
-
+	
 	.homepage-content {
 	margin-top: 1%;
 	margin-right: auto;
@@ -421,13 +471,25 @@ h4 {
 		display: none;
 	}
 
+	.contact-content {
+	font-size: 25px;
+	line-height: 75px;
+	margin-top: 4%;
+	}
+
+
 }
 
 
 @media(min-width:768px){
 	
 	.navbar-default .navbar-brand {
-	font-size: 45px;
+	font-size: 35px;
+	}
+
+	.navbar-default .navbar-nav li a {
+    color: #264b72;
+    font-size: 13px;
 	}
 
 	.homepage-content {
@@ -476,12 +538,19 @@ h4 {
 		display: none;
 	}
 	
+	
 }
 
 @media(min-width:992px){
+
 	
 	.navbar-default .navbar-brand {
 	font-size: 50px;
+	}
+	
+	.navbar-default .navbar-nav li a {
+    color: #264b72;
+    font-size: 15px;
 	}
 
 	.homepage-content {
@@ -530,9 +599,14 @@ h4 {
 
 
 @media(min-width:1200px){
-
+	
 	.navbar-default .navbar-brand {
 	font-size: 55px;
+	}
+	
+	.navbar-default .navbar-nav li a {
+    color: #264b72;
+    font-size: 15px;
 	}
 
 	.homepage-content {
