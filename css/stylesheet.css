@@ -56,42 +56,38 @@ body {
 /* END Navbar styling */
 
 
-.homepage-content {
-	margin-top: 4%;
-	width: 100%;
-	padding: 45px;
-	text-align: center;
-}
 
-.homepage-box {
-	margin-right: auto;
-	margin-left: auto;
-}
-
-
-.homepage-content ul {
-	width: 100%;
-	margin-top: 4%; 
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.homepage-content ul li {
-	display: inline-block;
-	font-size: 40px;
-	font-family: 'Lato', sans-serif;
-	color: grey;
-	line-height: 75px;
-	margin: 20px;
-	
-
-}
 
 
 
 
 /* START Homepage main link styling (colors and hover) */
+
+.homepage-content {
+	margin-top: 4%;
+	width: 100%;
+	padding: 45px;
+	text-align: center;
+
+}
+
+
+.homepage-list {
+	display: inline-block;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	line-height: 150px;
+	margin: 20px;
+}
+
+.homepage-list a {
+	margin: 13px;
+}
+
+.nobr {
+	white-space: nowrap;
+}
 
 .ps-link, .VFA-link, .writer-link, .reader-link, .listener-link, .tinkerer-link, .builder-link{
 	color: #264b72;
@@ -490,10 +486,10 @@ h4 {
 
 	}   
    
-    .homepage-content ul li {
+    .homepage-list {
     	display: block;
-        font-size: 20px;
-        line-height: 75%;
+        font-size: 30px;
+        line-height: 75px;
     }
     
     .pages-header h2 {
@@ -580,9 +576,14 @@ h4 {
 	margin-left: auto;
 	width: 100%;
 	padding: 25px;
-	line-height: 400%;
+
 	}   
    
+   	.homepage-list {
+    	display: block;
+        font-size: 35px;
+        line-height: 100px;
+    }
 
 	.pages-header h2 {
 	font-size: 25px;
@@ -640,6 +641,12 @@ h4 {
 	padding: 25px;
 	line-height: 400%;
 	}   
+   
+   	.homepage-list {
+    	display: block;
+        font-size: 50px;
+        line-height: 150px;
+    }
    
     .homepage-content p {
         font-size: 43px; 
