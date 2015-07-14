@@ -64,13 +64,13 @@ body {
 /* START Homepage main link styling (colors and hover) */
 
 .homepage-content {
-	margin-top: 4%;
+	margin-top: -50px;
 	width: 100%;
 	padding: 45px;
 	text-align: center;
 
-}
 
+}
 
 .homepage-list {
 	display: inline-block;
@@ -79,6 +79,7 @@ body {
 	color: grey;
 	line-height: 150px;
 	margin: 20px;
+	margin-top: -10px;
 }
 
 .homepage-list a {
@@ -110,6 +111,7 @@ body {
 .VFA-link:hover {
 	color: #ca3d3e;
 	text-decoration: none;
+	
 }
 
 
@@ -486,10 +488,20 @@ h4 {
 
 	}   
    
+   	.VFA-link {
+   		margin-left: -10px !important;
+   	}
+   	
+   	.music-column {
+   		margin-left: -4px;
+   		margin-top: -70px;
+   	}
+   	
     .homepage-list {
     	display: block;
         font-size: 30px;
         line-height: 75px;
+        
     }
     
     .pages-header h2 {
@@ -578,7 +590,7 @@ h4 {
 	padding: 25px;
 
 	}   
-   
+   	
    	.homepage-list {
     	display: block;
         font-size: 35px;
